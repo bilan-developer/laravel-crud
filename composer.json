@@ -1,0 +1,26 @@
+{
+    "name": "bilan/laravel-crud",
+    "autoload": {
+        "psr-4": {
+            "Bilan\\CRUD\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bilan Oleksandr",
+            "email": "bilan.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-openssl": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bilan\\CRUD\\CRUDServiceProvider"
+            ]
+
+        }    },
+    "minimum-stability": "dev"
+}
